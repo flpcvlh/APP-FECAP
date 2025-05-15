@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.FECAPApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Cores primárias -->
+        <item name="colorPrimary">@color/fecap_green</item>
+        <item name="colorPrimaryVariant">@color/fecap_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Cores secundárias -->
+        <item name="colorSecondary">@color/fecap_green_light</item>
+        <item name="colorSecondaryVariant">@color/fecap_green</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Barra de status -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Estilos de texto -->
+        <item name="textAppearanceHeadline1">@style/Text.FECAP.Headline</item>
+        <item name="textAppearanceHeadline2">@style/Text.FECAP.Title</item>
+        <item name="textAppearanceSubtitle1">@style/Text.FECAP.Subtitle</item>
+        <item name="textAppearanceBody1">@style/Text.FECAP.Body</item>
+        <item name="textAppearanceBody2">@style/Text.FECAP.Caption</item>
+
+        <!-- Estilo de componentes -->
+        <item name="materialButtonStyle">@style/Button.FECAP</item>
+        <item name="materialCardViewStyle">@style/Card.FECAP</item>
+        <item name="textInputStyle">@style/TextInput.FECAP</item>
+    </style>
+
+    <!-- Estilos de texto -->
+    <style name="Text.FECAP.Headline" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/fecap_green</item>
+    </style>
+
+    <style name="Text.FECAP.Title" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="Text.FECAP.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="Text.FECAP.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="Text.FECAP.Caption" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!-- Estilo para botões -->
+    <style name="Button.FECAP" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/fecap_green</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Estilo para cards -->
+    <style name="Card.FECAP" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Estilo para input fields -->
+    <style name="TextInput.FECAP" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxStrokeColor">@color/fecap_green</item>
+    </style>
+</resources>

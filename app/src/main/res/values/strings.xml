@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Informações do App -->
+    <string name="app_name">FECAP</string>
+
+    <!-- Autenticação -->
+    <string name="bem_vindo">Portal do Aluno</string>
+    <string name="email_institucional">E-mail institucional</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="nao_tem_conta">Primeiro acesso?</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="numero_matricula">Número de matrícula</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="voltar_login">Voltar para o login</string>
+
+
+    <!-- Navegação -->
+    <string name="sair">Sair</string>
+    <string name="ativo">ATIVO</string>
+    <string name="cadastrando">Cadastrando...</string>
+    <string name="entrando">Entrando...</string>
+
+    <!-- Tela Principal -->
+    <string name="ola_estudante">Olá,</string>
+    <string name="servicos_disponiveis">Serviços</string>
+
+    <!-- Módulos -->
+    <string name="biblioteca">Biblioteca</string>
+    <string name="biblioteca_desc">Acesso ao acervo acadêmico</string>
+    <string name="mensalidades">Financeiro</string>
+    <string name="mensalidades_desc">Mensalidades e pagamentos</string>
+    <string name="mensalidades_desc_completo">Gerencie e acompanhe suas mensalidades de forma rápida e segura.</string>
+    <string name="meu_perfil">Meu Perfil</string>
+    <string name="perfil_desc">Informações cadastrais</string>
+
+    <!-- Biblioteca -->
+    <string name="livros_disponiveis">Acervo</string>
+    <string name="livros_disponiveis_titulo">Acervo Disponível</string>
+    <string name="livros_disponiveis_desc">Livros e materiais para empréstimo</string>
+    <string name="meus_emprestimos">Meus Empréstimos</string>
+    <string name="meus_emprestimos_titulo">Histórico</string>
+    <string name="meus_emprestimos_desc">Consulte seus empréstimos ativos e anteriores</string>
+    <string name="reservar">Reservar</string>
+    <string name="devolver">Devolver</string>
+    <string name="disponivel">Disponível</string>
+    <string name="indisponivel">Indisponível</string>
+    <string name="nenhum_livro_disponivel">Nenhum livro disponível no momento</string>
+    <string name="nenhum_emprestimo">Você não possui empréstimos ativos</string>
+
+
+    <!-- Boletos -->
+    <string name="mensalidades_titulo">Mensalidades</string>
+    <string name="pagar">Pagar</string>
+    <string name="pendente">Pendente</string>
+    <string name="pago">Pago</string>
+    <string name="vencido">Vencido</string>
+    <string name="nenhum_boleto">Nenhum boleto pendente</string>
+
+    <!-- Perfil -->
+    <string name="foto_perfil">Foto de perfil</string>
+    <string name="dados_pessoais">Dados Pessoais</string>
+    <string name="seguranca">Segurança</string>
+    <string name="senha_atual">Senha atual</string>
+    <string name="nova_senha">Nova senha</string>
+    <string name="confirmar_nova_senha">Confirmar nova senha</string>
+    <string name="salvar_alteracoes">Salvar</string>
+
+    <!-- Novos livros adicionados -->
+    <string name="livro_algoritmos">Entendendo Algoritmos</string>
+    <string name="livro_mitico">O Mítico Homem-Mês</string>
+    <string name="livro_clean_code">Código Limpo</string>
+    <string name="livro_pragmatic">O Programador Pragmático</string>
+    <string name="livro_design_patterns">Padrões de Projeto</string>
+
+    <!-- Ícones -->
+    <string name="logo_fecap">Logo da FECAP</string>
+    <string name="icone_biblioteca">Ícone da biblioteca</string>
+    <string name="icone_boletos">Ícone de boletos</string>
+    <string name="icone_perfil">Ícone de perfil</string>
+    <string name="capa_livro">Capa do livro</string>
+</resources>
